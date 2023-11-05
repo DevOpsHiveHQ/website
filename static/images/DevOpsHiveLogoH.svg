@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="552mm"
-   height="124mm"
-   viewBox="0 0 552 124"
+   width="557.18848mm"
+   height="122.27184mm"
+   viewBox="0 0 557.18848 122.27184"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.32"
-     inkscape:cx="1658.7856"
-     inkscape:cy="43.177413"
+     inkscape:zoom="0.22627417"
+     inkscape:cx="-142.97108"
+     inkscape:cy="-544.46666"
      inkscape:document-units="mm"
      inkscape:current-layer="g1131-5"
      showgrid="false"
@@ -43,7 +43,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0">
     <sodipodi:guide
-       position="1086.4221,903.57387"
+       position="1086.4221,903.57388"
        orientation="0,1"
        id="guide46"
        inkscape:locked="false" />
@@ -64,7 +64,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(831.89286,-650.59469)">
+     transform="translate(831.89286,-652.32285)">
     <g
        id="g954-6"
        transform="matrix(0.00105746,0.72722785,-0.72722785,0.00105746,-287.43359,606.82184)">
@@ -76,7 +76,7 @@
            style="fill:#272727;fill-opacity:1"
            id="g1131-5">
           <g
-             transform="matrix(0.00105746,0.72722782,-0.72722782,0.00105746,-140.60835,129.82264)"
+             transform="matrix(0.00105746,0.72722782,-0.72722782,0.00105746,-140.60835,130.68672)"
              id="g1136-3">
             <path
                transform="matrix(1.0176142,0.00198368,-0.00198368,1.0176142,75.18708,466.20854)"
@@ -135,14 +135,14 @@
           </g>
           <text
              id="text905-5-6-6"
-             y="285.37744"
-             x="-477.40463"
+             y="284.65408"
+             x="-483.14059"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:71.87220764px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';letter-spacing:0px;word-spacing:0px;fill:#272727;fill-opacity:1;stroke:none;stroke-width:1.79680514"
              xml:space="preserve"><tspan
                id="tspan907-5-0-29"
-               style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:0px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium';letter-spacing:0px;fill:#272727;fill-opacity:1;stroke-width:1.79680514"
-               y="285.37744"
-               x="-477.40463"
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';letter-spacing:0px;fill:#272727;fill-opacity:1;stroke-width:1.79680514"
+               y="284.65408"
+               x="-483.14059"
                sodipodi:role="line">DevOps Hive</tspan></text>
         </g>
       </g>
