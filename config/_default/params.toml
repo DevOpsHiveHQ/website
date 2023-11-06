@@ -1,11 +1,11 @@
 #################### default parameters ################################
-logo = "images/DevOpsHiveLogoH.svg"
+logo = "images/devops-hive-logo.svg"
 logo_width = "200px"
 favicon = "images/favicon.png"
 # OpenGraph / Twitter Card metadata
-description = "This is meta description"
-author = "Themefisher"
-image = "images/DevOpsHiveLogoH.svg" # this image will be used as fallback if a page has no image of its own
+description = "DevOps Transformation hub for enterprise and open-source community"
+author = "DevOps Hive"
+image = "images/devops-hive-logo.svg" # this image will be used as fallback if a page has no image of its own
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 
@@ -32,16 +32,16 @@ button = "I Accept"
   
 ############################# social site ########################
 [[social]]
-title = "github"
-icon = "fab fa-github" # themify icon : https://themify.me/themify-icons
-link = "https://github.com/DevOpsHiveNet"
-
-[[social]]
 title = "linkedin"
 icon = "fab fa-linkedin" # themify icon : https://themify.me/themify-icons
 link = "https://www.linkedin.com/company/devopshive/"
 
 [[social]]
-title = "Telegram"
-icon = "fab fa-telegram" # themify icon : https://themify.me/themify-icons
-link = "#"
+title = "github"
+icon = "fab fa-github" # themify icon : https://themify.me/themify-icons
+link = "https://github.com/DevOpsHiveNet"
+
+[[social]]
+title = "Twitter"
+icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
+link = "https://twitter.com/DevOpsHiveNet"

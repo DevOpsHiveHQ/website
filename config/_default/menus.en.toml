@@ -33,18 +33,18 @@ weight = 4
 # url = "pricing/"
 
 
-# # footer menu middle
-# [[footer_middle]]
-# name = "Pricing"
-# url = "pricing/"
+# footer menu middle
+[[footer_middle]]
+name = "About"
+url = "about/"
 
-# [[footer_middle]]
-# name = "Platform"
-# url = "#"
+[[footer_middle]]
+name = "Community"
+url = "community/"
 
-# [[footer_middle]]
-# name = "Features"
-# url = "#"
+[[footer_middle]]
+name = "FAQ"
+url = "faq/"
 
 # footer menu right
 [[footer_right]]
