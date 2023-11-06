@@ -6,4 +6,4 @@ description: "This is meta description"
 draft: false
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+Supporting open source and community is one of our goals. We have open source project and prove mentorship for the community to have a better DevOps ecosystem. [Check out our community projects](https://github.com/DevOpsHiveNet).
