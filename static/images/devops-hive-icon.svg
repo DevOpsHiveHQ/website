@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="130mm"
-   height="130mm"
-   viewBox="0 0 130 130"
+   width="1200"
+   height="630"
+   viewBox="0 0 317.49999 166.6875"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.64"
-     inkscape:cx="57.061549"
-     inkscape:cy="58.290048"
+     inkscape:cx="408.62405"
+     inkscape:cy="239.54005"
      inkscape:document-units="mm"
      inkscape:current-layer="g1131-5"
      showgrid="false"
@@ -41,7 +41,8 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     units="px">
     <sodipodi:guide
        position="1086.4221,903.57385"
        orientation="0,1"
@@ -64,7 +65,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(831.89286,-644.59469)">
+     transform="translate(831.89286,-607.90721)">
     <g
        id="g954-6"
        transform="matrix(0.00105746,0.72722785,-0.72722785,0.00105746,-287.43359,606.82184)">
@@ -76,7 +77,8 @@
            style="fill:#272727;fill-opacity:1"
            id="g1131-5">
           <g
-             transform="matrix(0.00105746,0.72722782,-0.72722782,0.00105746,-128.60099,126.82264)"
+             style="fill:#272727;fill-opacity:1"
+             transform="matrix(0.00105746,0.72722782,-0.72722782,0.00105746,-34.850991,108.47891)"
              id="g1136-3">
             <path
                transform="matrix(1.0176142,0.00198368,-0.00198368,1.0176142,75.18708,466.20854)"
