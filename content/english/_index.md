@@ -3,7 +3,7 @@
 banner:
   title : "We help you to solve critical development <br> and infrastructure challenges"
   image : "images/devsecops.svg"
-  content : "We help enterprises adopt DevOps practices to solve critical challenges of Software Development Life Cycle. DevOps transformations is our specialty and DevSecOps is in our DNA!"
+  content : "We help enterprises adopt DevOps practices to solve critical challenges of software development. We build cloud-native platforms and teams. DevOps transformations is our specialty and DevSecOps is in our DNA!"
   button:
     enable : true
     label : "Contact Us"
@@ -31,14 +31,14 @@ feature:
       content : "Experience Agile, immediate issue resolution"
 
     # feature item loop
-    - name : "Object Oriented"
-      icon : "fas fa-object-group"
-      content : "Implement robust, scalable systems with OOP expertise"
-
-    # feature item loop
-    - name : "Swiftly Support"
+    - name : "Timely Support"
       icon : "fas fa-user-clock"
       content : "Get rapid, reliable DevOps support for seamless operations"
+
+    # feature item loop
+    - name : "State of the Art"
+      icon : "fas fa-object-group"
+      content : "Implement robust, scalable systems with incorporating the latest technology"
 
     # feature item loop
     - name : "Value For Money"
@@ -66,7 +66,7 @@ service:
     - title : "What we do?"
       images:
       - "images/service-2.png"
-      content : "DevOps Consulting (Assessment and Transformation), Infrastructure as Code (IaC), Continuous Integration and Continuous Deployment (CI/CD), Containerization and Orchestration (Docker and Kubernetes), Cloud Migration and Management, Monitoring and Analytics, Performance Optimization, DevOps Training and Workshops ... and more!"
+      content : "DevOps Consulting (Assessment and Transformation), Infrastructure as Code (IaC and GitOps), Continuous Integration and Continuous Deployment (CI/CD), Containerization and Orchestration (Docker and Kubernetes), Cloud Migration and Management, Monitoring and Analytics, Performance Optimization, DevOps Training and Workshops ... and more!"
       button:
         enable : true
         label : "Check it out"
@@ -76,7 +76,7 @@ service:
     - title : "We love Open Source, we love community!"
       images:
       - "images/k8s-community.png"
-      content : "Supporting open source and community is one of our goals. We have open source project and prove mentorship for the community to have a better DevOps ecosystem."
+      content : "Supporting open source and community is one of our goals. We have open source project and provide mentorship for the community to have a better DevOps ecosystem."
       button:
         enable : true
         label : "Check out our community projects"
