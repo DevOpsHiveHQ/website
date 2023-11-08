@@ -65,7 +65,7 @@ service:
     # # service item loop
     - title : "What we do?"
       images:
-      - "images/service-2.png"
+      - "images/cloud-actions.png"
       content : "DevOps Consulting (Assessment and Transformation), Infrastructure as Code (IaC and GitOps), Continuous Integration and Continuous Deployment (CI/CD), Containerization and Orchestration (Docker and Kubernetes), Cloud Migration and Management, Monitoring and Analytics, Performance Optimization, DevOps Training and Workshops ... and more!"
       button:
         enable : true
@@ -76,10 +76,10 @@ service:
     - title : "We love Open Source, we love community!"
       images:
       - "images/k8s-community.png"
-      content : "Supporting open source and community is one of our goals. We have open source project and provide mentorship for the community to have a better DevOps ecosystem."
+      content : "Supporting open source and community is one of our goals. We have open source projects and provide mentorship for the community to have a better DevOps ecosystem."
       button:
         enable : true
-        label : "Check out our community projects"
+        label : "Check out community projects"
         link : "https://github.com/DevOpsHiveNet"
 
 

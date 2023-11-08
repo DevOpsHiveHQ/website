@@ -3,7 +3,7 @@ logo = "images/devops-hive-logo.svg"
 logo_width = "200px"
 favicon = "images/favicon.png"
 # OpenGraph / Twitter Card metadata
-description = "DevOps Transformation hub for enterprise and open-source community"
+description = "DevOps Transformation gate for enterprise and open-source community"
 author = "DevOps Hive"
 image = "images/devops-hive-icon.png" # this image will be used as fallback if a page has no image of its own
 # contact form action
