@@ -31,17 +31,18 @@ content = "This site uses cookies. By continuing to use this website, you agree 
 button = "I Accept"
   
 ############################# social site ########################
+# themify icon : https://themify.me/themify-icons
 [[social]]
 title = "linkedin"
-icon = "fab fa-linkedin" # themify icon : https://themify.me/themify-icons
-link = "https://www.linkedin.com/company/devopshive/"
+icon = "fab fa-linkedin"
+link = "https://www.linkedin.com/company/devopshive"
 
 [[social]]
 title = "github"
-icon = "fab fa-github" # themify icon : https://themify.me/themify-icons
+icon = "fab fa-github"
 link = "https://github.com/DevOpsHiveNet"
 
 [[social]]
-title = "Twitter"
-icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
-link = "https://twitter.com/DevOpsHiveNet"
+title = "Telegram"
+icon = "fab fa-telegram"
+link = "https://t.me/DevOpsHive"

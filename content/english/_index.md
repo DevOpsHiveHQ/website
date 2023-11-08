@@ -76,11 +76,11 @@ service:
     - title : "We love Open Source, we love community!"
       images:
       - "images/k8s-community.png"
-      content : "Supporting open source and community is one of our goals. We have open source projects and provide mentorship for the community to have a better DevOps ecosystem."
+      content : "Supporting open source and community is one of our goals. For a better DevOps ecosystem, we have open-source projects and provide mentorship to the community members. Subscribe to our channel for updates on our latest projects and mentorship programs."
       button:
         enable : true
-        label : "Check out community projects"
-        link : "https://github.com/DevOpsHiveNet"
+        label : "Subscribe now"
+        link : "https://t.me/DevOpsHive"
 
 
 ################### Screenshot ########################
