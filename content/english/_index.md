@@ -14,6 +14,7 @@ banner:
 feature:
   enable : true
   title : "We Deliver High Standards"
+  id: standards
   feature_item:
     # feature item loop
     - name : "Cloud Native"
@@ -31,14 +32,14 @@ feature:
       content : "Experience Agile, immediate issue resolution"
 
     # feature item loop
-    - name : "Timely Support"
-      icon : "fas fa-user-clock"
-      content : "Get rapid, reliable DevOps support for seamless operations"
-
-    # feature item loop
     - name : "State of the Art"
       icon : "fas fa-object-group"
       content : "Implement robust, scalable systems with incorporating the latest technology"
+
+    # feature item loop
+    - name : "Timely Support"
+      icon : "fas fa-user-clock"
+      content : "Get rapid, reliable DevOps support for seamless operations"
 
     # feature item loop
     - name : "Value For Money"
@@ -64,6 +65,7 @@ service:
 
     # # service item loop
     - title : "What we do?"
+      id: services
       images:
       - "images/cloud-actions.png"
       content : "DevOps Consulting (Assessment and Transformation), Infrastructure as Code (IaC and GitOps), Continuous Integration and Continuous Deployment (CI/CD), Containerization and Orchestration (Docker and Kubernetes), Cloud Migration and Management, Monitoring and Analytics, Performance Optimization, DevOps Training and Workshops ... and more!"
@@ -74,6 +76,7 @@ service:
 
     # service item loop
     - title : "We love Open Source, we love community!"
+      id: community
       images:
       - "images/k8s-community.png"
       content : "Supporting open source and community is one of our goals. For a better DevOps ecosystem, we have open-source projects and provide mentorship to the community members. Subscribe to our channel for updates on our latest projects and mentorship programs."
