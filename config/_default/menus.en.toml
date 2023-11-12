@@ -1,18 +1,18 @@
 # main menu
-# [[main]]
-# name = "Home"
-# url = "/"
-# weight = 1
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
 
-# [[main]]
-# name = "About"
-# url = "about/"
-# weight = 2
+[[main]]
+name = "Services"
+url = "/#services"
+weight = 2
 
-# [[main]]
-# name = "Community"
-# url = "community/"
-# weight = 3
+[[main]]
+name = "Community"
+url = "/#community"
+weight = 3
 
 # [[main]]
 # name = "FAQ"
