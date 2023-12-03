@@ -1,0 +1,8 @@
+p > a {
+  color: $primary-color;
+}
+
+p > a:hover, p > a:focus {
+  text-decoration: underline;
+  transition: .5s ease;
+}
