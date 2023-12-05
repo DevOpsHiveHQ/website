@@ -79,7 +79,7 @@ service:
       id: community
       images:
       - "images/k8s-community.png"
-      content : "Supporting open source and community is one of our goals. For a better DevOps ecosystem, we have open-source projects and provide mentorship to the community members. Subscribe to our channel for updates on our latest projects and [mentorship programs](https://github.com/DevOpsHiveCloud/dynamic-devops-roadmap)."
+      content : "Supporting open source and community is one of our goals. For a better DevOps ecosystem, we have open-source projects and provide mentorship to the community members. Subscribe to our channel for updates on our latest projects and [mentorship programs](https://github.com/DevOpsHiveHQ/dynamic-devops-roadmap)."
       button:
         enable : true
         label : "Subscribe now"
