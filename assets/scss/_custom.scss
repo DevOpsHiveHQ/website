@@ -7,6 +7,10 @@ p > a:hover, p > a:focus {
   transition: .5s ease;
 }
 
+/*——————————————
+Hexagon Buttons
+———————————————*/
+
 .btn {
   clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
   border-radius: 0;
@@ -14,4 +18,131 @@ p > a:hover, p > a:focus {
 
 .btn:hover {
   transform: scale(1.05);
+}
+
+/*——————————————
+TimeLine CSS
+———————————————*/
+
+/* Base */
+
+#timeline-content {
+  margin-top: 50px;
+  text-align: center;
+}
+
+section.timeline-outer {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 3em;
+}
+
+h1.header {
+  font-size: 50px;
+  line-height: 70px;
+}
+
+/* Timeline */
+
+.timeline {
+  border-left: 8px solid #edf6f5;
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+  color: #333;
+  margin: 60px auto 0 auto;
+  letter-spacing: 0.5px;
+  position: relative;
+  line-height: 2em;
+  padding: 0 20px 20px 30px;
+  list-style: none;
+  text-align: left;
+}
+
+.timeline h1,
+.timeline h2,
+.timeline h3 {
+  font-size: 1.4em;
+}
+
+.timeline .event {
+  border-bottom: 1px solid rgba(160, 160, 160, 0.2);
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline .event:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .event:before {
+  left: -188px;
+  top: -2px;
+  color: #212121;
+  content: attr(data-date);
+  text-align: right;
+  /*  font-weight: 100;*/
+  font-size: 16px;
+  min-width: 120px;
+  line-height: 1.8em;
+}
+
+.timeline .event:after {
+  box-shadow: 0 0 0 8px #edf6f5;
+  left: -46px;
+  background: $primary-color;
+  clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
+  height: 11px;
+  width: 11px;
+  content: "";
+  width: 1.5em;
+  height: 1.6em;
+  clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
+}
+
+/*——————————————
+Responsive Style
+———————————————*/
+
+@media (max-width: 945px) {
+  .timeline .event::before {
+    left: 0.5px;
+    top: 20px;
+    min-width: 0;
+    font-size: 13px;
+  }
+  .timeline h3 {
+    font-size: 16px;
+  }
+  .timeline p {
+    padding-top: 20px;
+  }
+  section.lab h3.card-title {
+    padding: 5px;
+    font-size: 16px
+  }
+}
+
+@media (max-width: 768px) {
+  .timeline .event::before {
+    left: 0.5px;
+    top: 20px;
+    min-width: 0;
+    font-size: 13px;
+  }
+  .timeline h3 {
+    font-size: 16px;
+  }
+  .timeline p {
+    padding-top: 20px;
+  }
 }

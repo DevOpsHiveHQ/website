@@ -14,6 +14,11 @@ name = "Community"
 url = "/#community"
 weight = 3
 
+[[main]]
+name = "Career Roadmap"
+url = "/#career-roadmap"
+weight = 4
+
 # [[main]]
 # name = "FAQ"
 # url = "faq/"
