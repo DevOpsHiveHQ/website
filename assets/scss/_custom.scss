@@ -6,3 +6,12 @@ p > a:hover, p > a:focus {
   text-decoration: underline;
   transition: .5s ease;
 }
+
+.btn {
+  clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
+  border-radius: 0;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
