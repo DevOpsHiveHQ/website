@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 p > a {
   color: $primary-color;
 }
@@ -5,6 +9,27 @@ p > a {
 p > a:hover, p > a:focus {
   text-decoration: underline;
   transition: .5s ease;
+}
+
+/*———————————————————
+Fixed navigation bar
+———————————————————*/
+
+.navigation{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: #fff;
+  border-bottom: 1px solid #edf6f5;
+}
+
+.section {
+  scroll-margin-top: 4.5em;
+}
+
+.banner {
+  padding: 44px 0 50px;
 }
 
 /*——————————————
@@ -20,21 +45,22 @@ Hexagon Buttons
   transform: scale(1.05);
 }
 
-/*——————————————
+/*——————————————————————
 TimeLine CSS
-———————————————*/
+HTML/CSS by SAMET ERPIK
+https://www.erpik.com/
+——————————————————————*/
 
 /* Base */
 
 #timeline-content {
-  margin-top: 50px;
+  margin-top: 70px;
   text-align: center;
 }
 
 section.timeline-outer {
-  width: 80%;
+  width: 74%;
   margin: 0 auto;
-  padding-top: 3em;
 }
 
 h1.header {
@@ -52,10 +78,14 @@ h1.header {
   margin: 60px auto 0 auto;
   letter-spacing: 0.5px;
   position: relative;
-  line-height: 2em;
+  line-height: 2em;margin-left: 1em;
   padding: 0 20px 20px 30px;
   list-style: none;
   text-align: left;
+}
+
+ul.timeline {
+  margin-left: 2em;
 }
 
 .timeline h1,
@@ -114,6 +144,11 @@ Responsive Style
 ———————————————*/
 
 @media (max-width: 945px) {
+  section.timeline-outer {
+    width: 84%;
+    margin: 0 auto;
+    padding-top: 3em;
+  }
   .timeline .event::before {
     left: 0.5px;
     top: 20px;
@@ -132,17 +167,21 @@ Responsive Style
   }
 }
 
-@media (max-width: 768px) {
+@media(max-width: 480px) {
   .timeline .event::before {
-    left: 0.5px;
-    top: 20px;
+    left: .5px;
     min-width: 0;
     font-size: 13px;
+    position: initial;
+    text-align: left;
+  }
+  ul.timeline {
+    margin-left: 0.5em;
   }
   .timeline h3 {
-    font-size: 16px;
+    font-size: 16px
   }
   .timeline p {
-    padding-top: 20px;
+    padding-top: 10px
   }
 }

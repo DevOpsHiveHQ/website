@@ -68,7 +68,7 @@ service:
       id: services
       images:
       - "images/cloud-actions.png"
-      content : "DevOps Consulting (Assessment and Transformation), Infrastructure as Code (IaC and GitOps), Continuous Integration and Continuous Deployment (CI/CD), Containerization and Orchestration (Docker and Kubernetes), Cloud Migration and Management, Monitoring and Analytics, Performance Optimization, DevOps Training and Workshops ... and more!"
+      content : " Cloud Migration and Management (AWS, GCP, Azure, OpenShift), DevOps Consulting (Assessment and Transformation), Infrastructure as Code (IaC and GitOps), Continuous Integration and Continuous Deployment (CI/CD), Containerization and Orchestration (Docker and Kubernetes), Monitoring and Analytics, Performance Optimization, DevOps Training and Workshops ... and more!"
       button:
         enable : true
         label : "Check it out"
@@ -91,7 +91,8 @@ service:
 timeline:
   enable : true
   code : |
-        <section id="career-roadmap" class="timeline-outer">
+        <!-- HTML/CSS by SAMET ERPIK https://www.erpik.com/ -->
+        <section id="career-roadmap" class="section timeline-outer">
           <div class="container" id="timeline-content">
             <div class="row">
               <div class="col s12 m12 l12">
